@@ -16,40 +16,84 @@ function App() {
           and looking to provide value to a team of developers.
         </div>
       </div>
-      <div className="skills">
-        <div>Skills</div>
-        <img class="skills" src="https://imgur.com/s8wa8hC.png" alt="HTML" />
-        <img class="skills" src="https://imgur.com/bwnJcD8.png" alt="CSS" />
-        <img
-          class="skills"
-          src="https://imgur.com/eD8LRpf.png"
-          alt="JavaScript"
-        />
-        <img
-          class="skills"
-          src="https://imgur.com/DPdCHkk.png"
-          alt="React.js"
-        />
-        <img class="skills" src="https://imgur.com/PpW0fLL.png" alt="Node.js" />
-        <img
-          class="skills"
-          src="https://imgur.com/dHxWvof.png"
-          alt="Express.js"
-        />
-        <img class="skills" src="https://imgur.com/xlmAQYr.png" alt="mongoDB" />
-        <img class="skills" src="https://imgur.com/XQQlqqf.png" alt="SQL" />
-        <img class="skills" src="https://imgur.com/M5EcPdg.png" alt="Ruby" />
-        <img
-          class="skills"
-          src="https://imgur.com/0kCTZWS.png"
-          alt="Ruby on Rails"
-        />
-        <img
-          class="skills"
-          src="https://imgur.com/Pp0Qdew.png"
-          alt="postgresql"
-        />
-        <img class="skills" src="https://imgur.com/vXPRpPG.png" alt="git" />
+      <div>Skills</div>
+      <div className="skills-container">
+        <div className="each-skill">
+          <img class="skills" src="https://imgur.com/s8wa8hC.png" alt="HTML" />
+          <div>HTML</div>
+        </div>
+        <div className="each-skill">
+          <img class="skills" src="https://imgur.com/bwnJcD8.png" alt="CSS" />
+          <div>CSS</div>
+        </div>
+        <div className="each-skill">
+          <img
+            class="skills"
+            src="https://imgur.com/eD8LRpf.png"
+            alt="JavaScript"
+          />
+          <div>Javascript</div>
+        </div>
+        <div className="each-skill">
+          <img
+            class="skills"
+            src="https://imgur.com/DPdCHkk.png"
+            alt="React.js"
+          />
+          <div>React</div>
+        </div>
+        <div className="each-skill">
+          <img
+            class="skills"
+            src="https://imgur.com/PpW0fLL.png"
+            alt="Node.js"
+          />
+          <div>Node JS</div>
+        </div>
+        <div className="each-skill">
+          <img
+            class="skills"
+            src="https://imgur.com/dHxWvof.png"
+            alt="Express.js"
+          />
+          <div>Express</div>
+        </div>
+        <div className="each-skill">
+          <img
+            class="skills"
+            src="https://imgur.com/xlmAQYr.png"
+            alt="mongoDB"
+          />
+          <div>MongoDB</div>
+        </div>
+        <div className="each-skill">
+          <img class="skills" src="https://imgur.com/XQQlqqf.png" alt="SQL" />
+          <div>SQL</div>
+        </div>
+        <div className="each-skill">
+          <img class="skills" src="https://imgur.com/M5EcPdg.png" alt="Ruby" />
+          <div>Ruby</div>
+        </div>
+        <div className="each-skill">
+          <img
+            class="skills"
+            src="https://imgur.com/0kCTZWS.png"
+            alt="Ruby on Rails"
+          />
+          <div>Rails</div>
+        </div>
+        <div className="each-skill">
+          <img
+            class="skills"
+            src="https://imgur.com/Pp0Qdew.png"
+            alt="postgresql"
+          />
+          <div>PostgreSQL</div>
+        </div>
+        <div className="each-skill">
+          <img class="skills" src="https://imgur.com/vXPRpPG.png" alt="git" />
+          <div>Git</div>
+        </div>
       </div>
       <div>
         <div>
