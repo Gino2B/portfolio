@@ -1,8 +1,10 @@
+import Navbar from "./components/Navbar/Navbar";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <header>
         <div className="name">Gene Baybay</div>
         <div className="title">
@@ -12,7 +14,7 @@ function App() {
       <div className="about">
         <div className="about-title">About Me</div>
         <div className="about-summary">
-          Based in New York, Passionate and hard-working junior developer eager
+          Based in New York, passionate and hard-working junior developer eager
           to sharpen my coding skills through practice. A quick learner that's
           open to new challenges, excited about problem solving abstract issues
           and looking to provide value to a team of developers.
@@ -110,13 +112,7 @@ function App() {
       <div>Projects</div>
       <div className="projects-container">
         <div className="project-card">
-          <img src="https://i.imgur.com/rwg2z0G.png" alt="project1" />
-          <div>text</div>
-          <button>View Site</button>
-          <button>Github</button>
-        </div>
-        <div className="project-card">
-          <img src="https://i.imgur.com/4PCwuOR.png" alt="project2" />
+          <img src="https://i.imgur.com/z2qPzWT.png" alt="project4" />
           <div>text</div>
           <button>View Site</button>
           <button>Github</button>
@@ -128,7 +124,13 @@ function App() {
           <button>Github</button>
         </div>
         <div className="project-card">
-          <img src="https://i.imgur.com/z2qPzWT.png" alt="project4" />
+          <img src="https://i.imgur.com/4PCwuOR.png" alt="project2" />
+          <div>text</div>
+          <button>View Site</button>
+          <button>Github</button>
+        </div>
+        <div className="project-card">
+          <img src="https://i.imgur.com/rwg2z0G.png" alt="project1" />
           <div>text</div>
           <button>View Site</button>
           <button>Github</button>
