@@ -1,4 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Rubik:wght@300&display=swap");
+
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #07689f;
+  height: 10vh;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 60vw;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+
+.links a:hover,
+.links a:visited,
+.links a:link,
+.links a:active {
+  color: white;
+  text-decoration: none;
 }

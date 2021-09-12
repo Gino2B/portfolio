@@ -1,63 +1,163 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap");
+html {
+  scroll-behavior: smooth;
 }
+
+.App {
+  background-color: #fafafa;
+  font-family: "Noto Sans KR", sans-serif;
+  color: #132c33;
+}
+
 .name {
   font-size: 4.5em;
 }
 .title {
   font-size: 2em;
+  color: #ff7e67;
 }
 
 header {
-  margin: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background-color: #07689f;
+  border-bottom: 1em solid #ff7e67;
 }
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container img {
+  width: 5vw;
+}
+
 .about {
-  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
   margin: 5vh auto;
+  text-align: center;
 }
+
 .about-title {
-  font-size: 2.5em;
+  font-size: 5em;
+  font-weight: 500;
+  margin: 2.5vh 0;
 }
 
 .about-summary {
   font-size: 1.2em;
+  margin: 2.5vh 0;
+}
+.fun-facts {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 15vw;
+  height: 40vh;
+  border: 2px solid #c9d6df;
+  border-radius: 12px;
+}
+.about-cards img {
+  width: 5vw;
+  border-radius: 100%;
 }
 .skills-section {
-  background-color: #51c4d3;
+  background-color: #07689f;
+  width: 75vw;
+  margin: 0 auto;
+  margin-bottom: 6vh;
+  border: 2px solid #ff7e67;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .skills-title {
   font-size: 3em;
+  font-weight: 600;
 }
 .skills-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 90vw;
+  width: 75vw;
   margin: 0 auto;
 }
 .each-skill {
+  text-align: center;
   margin: 2vh 6vw;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 .skills {
   width: 10vw;
   height: 10vw;
 }
-
+.projects-title {
+  font-size: 3em;
+  font-weight: 600;
+}
+.projects-section {
+  background-color: #07689f;
+  width: 75vw;
+  margin: 0 auto;
+  margin-bottom: 6vh;
+  border: 2px solid #ff7e67;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .projects-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  width: 75vw;
   margin: 0 auto;
-  width: 80vw;
 }
 .project-card {
   width: 25vw;
+  min-height: 50vh;
   margin: 2vh 6vw;
-  border: 1px solid black;
+  border: 2px solid #ff7e67;
   border-radius: 6px;
+  background-color: white;
 }
 
+.project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  border-radius: 6px;
+  text-align: center;
+}
 .project-card img {
   width: 25vw;
+  height: 25vh;
+  border-radius: 3px;
+  border-bottom: 2px solid #ff7e67;
+}
+
+.project-summary {
+  /* font- */
 }
