@@ -11,10 +11,12 @@ html {
 
 .name {
   font-size: 4.5em;
+  margin: 2vh;
 }
 .title {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #ff7e67;
+  margin: 2vh;
 }
 
 header {
@@ -30,12 +32,32 @@ header {
 .contact-container {
   display: flex;
   justify-content: center;
+  margin: 2vh;
 }
 
 .contact-container img {
-  width: 5vw;
+  width: 3vw;
+  padding: 0 1vw;
+  transition: all 0.2s ease-in-out;
 }
+.contact-container img:hover {
+  transform: scale(1.1);
+}
+.tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
 
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.email:hover + .tooltip {
+  visibility: visible;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -53,14 +75,21 @@ header {
 }
 
 .about-summary {
-  font-size: 1.2em;
+  width: 90%;
+  font-size: 1.5em;
   margin: 2.5vh 0;
+}
+
+.about-highlight {
+  font-size: 1.3em;
+  font-weight: 600;
 }
 .fun-facts {
   width: 60vw;
   display: flex;
   justify-content: space-between;
   text-align: center;
+  margin: 2.5vh;
 }
 .about-cards {
   display: flex;
@@ -72,17 +101,21 @@ header {
   border: 2px solid #c9d6df;
   border-radius: 12px;
 }
+.about-fun-fact {
+  width: 90%;
+}
 .about-cards img {
   width: 5vw;
   border-radius: 100%;
 }
 .skills-section {
   background-color: #07689f;
-  width: 75vw;
+  width: 99vw;
   margin: 0 auto;
   margin-bottom: 6vh;
-  border: 2px solid #ff7e67;
-  border-radius: 12px;
+  border-top: 1vw solid #ff7e67;
+  border-bottom: 1vw solid #ff7e67;
+  border-radius: 3px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,31 +129,31 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 75vw;
+  width: 98vw;
   margin: 0 auto;
 }
 .each-skill {
   text-align: center;
-  margin: 2vh 6vw;
+  margin: 3vh 6vw;
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 1.5em;
 }
 .skills {
-  width: 10vw;
-  height: 10vw;
+  width: 5vw;
+  height: 5vw;
 }
 .projects-title {
   font-size: 3em;
   font-weight: 600;
 }
 .projects-section {
-  background-color: #07689f;
-  width: 75vw;
+  /* background-color: #07689f; */
+  width: 98vw;
   margin: 0 auto;
   margin-bottom: 6vh;
-  border: 2px solid #ff7e67;
-  border-radius: 12px;
+  /* border: 2px solid #ff7e67; */
+  border-radius: 3px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,18 +163,23 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 75vw;
+  width: 98vw;
   margin: 0 auto;
 }
 .project-card {
   width: 25vw;
   min-height: 50vh;
   margin: 2vh 6vw;
-  border: 2px solid #ff7e67;
   border-radius: 6px;
   background-color: white;
+  border-left: 1vw solid #07689f;
+  border-bottom: 1vw solid #07689f;
+  transition: 0.6s;
 }
-
+.project-card:hover {
+  border-left: 1vw solid #ff7e67;
+  border-bottom: 1vw solid #ff7e67;
+}
 .project-info {
   display: flex;
   flex-direction: column;
@@ -157,7 +195,34 @@ header {
   border-radius: 3px;
   border-bottom: 2px solid #ff7e67;
 }
-
 .project-summary {
-  /* font- */
+  width: 90%;
+}
+.button-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 1vw 0;
+}
+.button-container button {
+  padding: 0.5vw;
+  width: 6vw;
+  background-color: #a2d5f2;
+  border-radius: 6px;
+  /* border: none; */
+}
+
+button:hover {
+  cursor: pointer;
+  /* text-shadow: 0 0 2em #ff7e67; */
+  border-color: #ff7e67;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 99vw;
+  height: 6vh;
 }

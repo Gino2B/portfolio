@@ -14,8 +14,27 @@ nav {
   font-family: "Rubik", sans-serif;
   font-size: 1.5em;
   color: white;
+  transition: all 0.2s ease-in-out;
 }
-
+.click-link:hover {
+  transform: scale(1.1);
+}
+.click-link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ff7e67;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.click-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .links a:hover,
 .links a:visited,
 .links a:link,
