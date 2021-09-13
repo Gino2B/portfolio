@@ -101,6 +101,10 @@ header {
   height: 40vh;
   border: 2px solid #c9d6df;
   border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+}
+.about-cards:hover {
+  transform: scale(1.1);
 }
 .about-fun-fact {
   width: 90%;
@@ -140,6 +144,10 @@ header {
   font-family: "Rubik", sans-serif;
   font-weight: 600;
   font-size: 1.5em;
+  transition: all 0.2s ease-in-out;
+}
+.each-skill:hover {
+  transform: scale(1.1);
 }
 .skills {
   width: 5vw;
@@ -170,7 +178,7 @@ header {
 }
 .project-card-even {
   width: 25vw;
-  min-height: 50vh;
+  min-height: 60vh;
   margin: 2vh 6vw;
   border-radius: 6px;
   background-color: white;
@@ -184,7 +192,7 @@ header {
 }
 .project-card-odd {
   width: 25vw;
-  min-height: 50vh;
+  min-height: 60vh;
   margin: 2vh 6vw;
   border-radius: 6px;
   background-color: white;
@@ -201,7 +209,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 35vh;
   border-radius: 6px;
   text-align: center;
 }
@@ -215,11 +223,14 @@ header {
 .project-summary {
   width: 90%;
 }
+.built {
+  margin-top: 2vh;
+}
 .button-container {
   width: 80%;
   display: flex;
   justify-content: space-around;
-  margin: 1vw 0;
+  margin-top: 2vh;
 }
 .button-container button {
   padding: 0.5vw;

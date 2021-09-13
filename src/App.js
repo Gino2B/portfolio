@@ -192,13 +192,17 @@ function App() {
             <img src="https://i.imgur.com/z2qPzWT.png" alt="project4" />
             <div className="project-info">
               <div className="project-summary">
-                A fullstack site based around NBA players and their best
-                moments! Users are able find a player and look at their info and
-                some of their best highlights/moments! Users can signup/login to
-                keep track of their favorite players and compare your favorites
-                with some of your friends!
+                A fullstack app with authentication based around NBA players and
+                their best moments! With the use of Rails, I was able to
+                implement the backend by creating a database to store all the
+                data between the player and users. The front end was built
+                utilizing React and some agile coding allowing for easy
+                expansion. The backend deployed with heroku, front end with
+                netlify.
               </div>
-              <div>Built with: Ruby on Rails, React</div>
+              <div className="built">
+                Built with: Ruby on Rails, PostgreSQL, ReactJS, CSS
+              </div>
               <div className="button-container">
                 <a
                   href="https://mynbashot.netlify.app"
@@ -220,7 +224,17 @@ function App() {
           <div className="project-card-odd">
             <img src="https://i.imgur.com/e68Iha4.png" alt="project3" />
             <div className="project-info">
-              <div>text</div>
+              <div className="project-summary">
+                A group project where we made a fullstack site utilizing user
+                authentication where users could buy and sell vinyl! Utilizing
+                MongoDB and Express for the backend to store all the albums and
+                their data. For the front end, more ReactJS and CSS. Use of
+                agile coding to allow for easy expansion. Heroku for backend
+                deployment, netlify for front end.
+              </div>
+              <div className="built">
+                Built with: MongoDB, Express, ReactJS, CSS
+              </div>
               <div className="button-container">
                 <a
                   href="https://b-side-collective.netlify.app/"
@@ -242,7 +256,14 @@ function App() {
           <div className="project-card-even">
             <img src="https://i.imgur.com/4PCwuOR.png" alt="project2" />
             <div className="project-info">
-              <div>text</div>
+              <div className="project-summary">
+                A pseudo fullstack app not really utilizing a backend. With the
+                use of airtable I was able to simluate grabbing data from a
+                database API. More of a front end focused project. A social
+                media app focused themed around shoes. People could upload a
+                post, comment, and like a post. Deployed with netlify.
+              </div>
+              <div className="built">Built with: Airtable, ReactJS, CSS</div>
               <div className="button-container">
                 <a
                   href="https://mix-n-kicks.netlify.app"
@@ -264,7 +285,13 @@ function App() {
           <div className="project-card-odd">
             <img src="https://i.imgur.com/rwg2z0G.png" alt="project1" />
             <div className="project-info">
-              <div>text</div>
+              <div className="project-summary">
+                A vanilla html project where a user could select a player of
+                their choosing and engage against a computer in a 1v1 pokemon
+                esque battle with basketball players as the focus. Focused on
+                pulling data from a third party API.
+              </div>
+              <div className="built">Vanilla HTML, Javascript, CSS</div>
               <div className="button-container">
                 <a
                   href="https://poke-ballin.netlify.app"
