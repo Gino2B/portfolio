@@ -188,7 +188,7 @@ function App() {
       <div className="projects-section" id="projects">
         <div className="projects-title">Projects</div>
         <div className="projects-container">
-          <div className="project-card">
+          <div className="project-card-even">
             <img src="https://i.imgur.com/z2qPzWT.png" alt="project4" />
             <div className="project-info">
               <div className="project-summary">
@@ -217,7 +217,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="project-card">
+          <div className="project-card-odd">
             <img src="https://i.imgur.com/e68Iha4.png" alt="project3" />
             <div className="project-info">
               <div>text</div>
@@ -239,7 +239,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="project-card">
+          <div className="project-card-even">
             <img src="https://i.imgur.com/4PCwuOR.png" alt="project2" />
             <div className="project-info">
               <div>text</div>
@@ -261,7 +261,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="project-card">
+          <div className="project-card-odd">
             <img src="https://i.imgur.com/rwg2z0G.png" alt="project1" />
             <div className="project-info">
               <div>text</div>

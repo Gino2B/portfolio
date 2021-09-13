@@ -10,8 +10,9 @@ html {
 }
 
 .name {
-  font-size: 4.5em;
+  font-size: 5em;
   margin: 2vh;
+  font-weight: 700;
 }
 .title {
   font-size: 1.5em;
@@ -69,8 +70,8 @@ header {
 }
 
 .about-title {
-  font-size: 5em;
-  font-weight: 500;
+  font-size: 3em;
+  font-weight: 600;
   margin: 2.5vh 0;
 }
 
@@ -166,7 +167,7 @@ header {
   width: 98vw;
   margin: 0 auto;
 }
-.project-card {
+.project-card-even {
   width: 25vw;
   min-height: 50vh;
   margin: 2vh 6vw;
@@ -176,8 +177,22 @@ header {
   border-bottom: 1vw solid #07689f;
   transition: 0.6s;
 }
-.project-card:hover {
+.project-card-even:hover {
   border-left: 1vw solid #ff7e67;
+  border-bottom: 1vw solid #ff7e67;
+}
+.project-card-odd {
+  width: 25vw;
+  min-height: 50vh;
+  margin: 2vh 6vw;
+  border-radius: 6px;
+  background-color: white;
+  border-right: 1vw solid #07689f;
+  border-bottom: 1vw solid #07689f;
+  transition: 0.6s;
+}
+.project-card-odd:hover {
+  border-right: 1vw solid #ff7e67;
   border-bottom: 1vw solid #ff7e67;
 }
 .project-info {
@@ -189,7 +204,8 @@ header {
   border-radius: 6px;
   text-align: center;
 }
-.project-card img {
+.project-card-even img,
+.project-card-odd img {
   width: 25vw;
   height: 25vh;
   border-radius: 3px;
