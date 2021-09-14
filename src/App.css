@@ -204,6 +204,11 @@ header {
   border-right: 1vw solid #ff7e67;
   border-bottom: 1vw solid #ff7e67;
 }
+.project-name {
+  margin-bottom: 2vh;
+  font-size: 1.3em;
+  font-weight: 600;
+}
 .project-info {
   display: flex;
   flex-direction: column;

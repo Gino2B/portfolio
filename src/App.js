@@ -191,6 +191,7 @@ function App() {
           <div className="project-card-even">
             <img src="https://i.imgur.com/z2qPzWT.png" alt="project4" />
             <div className="project-info">
+              <div className="project-name">myNBAshot</div>
               <div className="project-summary">
                 A fullstack app with authentication based around NBA players and
                 their best moments! With the use of Rails, I was able to
@@ -224,6 +225,7 @@ function App() {
           <div className="project-card-odd">
             <img src="https://i.imgur.com/e68Iha4.png" alt="project3" />
             <div className="project-info">
+              <div className="project-name">B-Side Collective</div>
               <div className="project-summary">
                 A group project where we made a fullstack site utilizing user
                 authentication where users could buy and sell vinyl! Utilizing
@@ -256,6 +258,7 @@ function App() {
           <div className="project-card-even">
             <img src="https://i.imgur.com/4PCwuOR.png" alt="project2" />
             <div className="project-info">
+              <div className="project-name">Mix-n-Kicks</div>
               <div className="project-summary">
                 A pseudo fullstack app not really utilizing a backend. With the
                 use of airtable I was able to simluate grabbing data from a
@@ -285,6 +288,7 @@ function App() {
           <div className="project-card-odd">
             <img src="https://i.imgur.com/rwg2z0G.png" alt="project1" />
             <div className="project-info">
+              <div className="project-name">Poke-ballin</div>
               <div className="project-summary">
                 A vanilla html project where a user could select a player of
                 their choosing and engage against a computer in a 1v1 pokemon
