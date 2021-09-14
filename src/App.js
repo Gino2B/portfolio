@@ -22,7 +22,7 @@ function App() {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/gene-baybay-80490520b/"
+            href="https://www.linkedin.com/in/gene-baybay/"
             target="_blank"
             rel="noopener noreferrer"
           >
