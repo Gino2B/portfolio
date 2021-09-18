@@ -42,3 +42,10 @@ nav {
   color: white;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 540px) {
+  .links {
+    width: 80vw;
+    font-size: 1.2em;
+  }
+}

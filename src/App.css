@@ -259,3 +259,169 @@ footer {
   width: 99vw;
   height: 6vh;
 }
+
+@media only screen and (max-width: 1440px) {
+  .project-name {
+    font-size: 1.1em;
+  }
+  .project-summary {
+    font-size: 0.8em;
+  }
+  .built {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-container img {
+    width: 5vw;
+  }
+
+  .fun-facts {
+    width: 90vw;
+  }
+
+  .about-summary {
+    width: 80vw;
+  }
+
+  .about-cards {
+    width: 25vw;
+  }
+
+  .project-card-even {
+    width: 35vw;
+  }
+  .project-card-odd {
+    width: 35vw;
+  }
+  .project-card-even img,
+  .project-card-odd img {
+    width: 35vw;
+  }
+  .button-container button {
+    width: 7vw;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .button-container button {
+    font-size: 0.7em;
+    width: 8vw;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .name {
+    font-size: 4em;
+  }
+  .title {
+    font-size: 1.2em;
+  }
+  .contact-container img {
+    width: 6.5vw;
+  }
+  .about-title {
+    font-size: 2.5em;
+  }
+  .about-cards img {
+    width: 8vw;
+  }
+  .about-highlight {
+    font-size: 0.9em;
+  }
+  .about-summary {
+    font-size: 1.2em;
+  }
+  .about-fun-fact {
+    font-size: 0.75em;
+  }
+  .skills {
+    width: 8vw;
+    height: 8vw;
+  }
+  .each-skill {
+    font-size: 1.2em;
+  }
+  .projects-title {
+    font-size: 2.5em;
+  }
+  .project-name {
+    font-size: 0.8em;
+  }
+  .project-summary {
+    font-size: 0.55em;
+  }
+  .built {
+    font-size: 0.55em;
+  }
+  .button-container button {
+    width: 10vw;
+    font-size: 0.55em;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .name {
+    font-size: 3em;
+  }
+  .title {
+    font-size: 0.8em;
+  }
+  .contact-container img {
+    width: 9vw;
+  }
+  .about-title {
+    font-size: 2.5em;
+  }
+  .fun-facts {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-cards {
+    width: 60vw;
+    margin: 2vh;
+  }
+  .about-cards img {
+    width: 13vw;
+  }
+  .about-highlight {
+    font-size: 1.5em;
+  }
+  .about-summary {
+    font-size: 1.2em;
+  }
+  .about-fun-fact {
+    font-size: 1em;
+  }
+
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card-even,
+  .project-card-odd {
+    width: 60vw;
+  }
+  .project-card-even img,
+  .project-card-odd img {
+    width: 60vw;
+  }
+  .projects-title {
+    font-size: 2.5em;
+  }
+  .project-name {
+    font-size: 0.8em;
+  }
+  .project-summary {
+    font-size: 0.6em;
+  }
+  .built {
+    font-size: 0.6em;
+  }
+  .button-container button {
+    width: 15vw;
+    font-size: 0.6em;
+  }
+}
