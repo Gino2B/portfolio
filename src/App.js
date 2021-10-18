@@ -295,7 +295,9 @@ function App() {
                 esque battle with basketball players as the focus. Focused on
                 pulling data from a third party API.
               </div>
-              <div className="built">Vanilla HTML, Javascript, CSS</div>
+              <div className="built">
+                Built with: Vanilla HTML, Javascript, CSS
+              </div>
               <div className="button-container">
                 <a
                   href="https://poke-ballin.netlify.app"
