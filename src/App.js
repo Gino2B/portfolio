@@ -183,11 +183,68 @@ function App() {
             />
             <div>Git</div>
           </div>
+          <div className="each-skill">
+            <img
+              className="skills"
+              src="https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/nextjs.png"
+              alt="git"
+            />
+            <div>Nextjs</div>
+          </div>
+          <div className="each-skill">
+            <img
+              className="skills"
+              src="https://symbols.getvecta.com/stencil_97/3_tailwind-css-icon.5009c3dbea.png"
+              alt="git"
+            />
+            <div>Tailwind</div>
+          </div>
+          <div className="each-skill">
+            <img
+              className="skills"
+              src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png"
+              alt="git"
+            />
+            <div>Firebase</div>
+          </div>
         </div>
       </div>
       <div className="projects-section" id="projects">
         <div className="projects-title">Projects</div>
+
         <div className="projects-container">
+          <div className="project-card-odd">
+            <img src="https://i.imgur.com/xFfqd1j.png" alt="project1" />
+            <div className="project-info">
+              <div className="project-name">Instaclone</div>
+              <div className="project-summary">
+                A Next.js project supposed to replicate the instagram web
+                application. With the implementation of TailwindCSS I was able
+                to easily make this responsive and deal with clean transition
+                animations to match the feel of the original Instagram. For the
+                backend I utilized Firebase v9 which allows it to scale well.
+              </div>
+              <div className="built">
+                Built with: Next.js, TailwindCSS, Firebase v9, NextAuth, Recoil
+              </div>
+              <div className="button-container">
+                <a
+                  href="https://instaclone-g2b.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>View Site</button>
+                </a>
+                <a
+                  href="https://github.com/Gino2B/instaclone"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Github</button>
+                </a>
+              </div>
+            </div>
+          </div>
           <div className="project-card-even">
             <img src="https://i.imgur.com/z2qPzWT.png" alt="project4" />
             <div className="project-info">
