@@ -245,7 +245,41 @@ function App() {
               </div>
             </div>
           </div>
+
           <div className="project-card-even">
+            <img src="https://i.imgur.com/qeusEdD.png" alt="project3" />
+            <div className="project-info">
+              <div className="project-name">Reddit Clone</div>
+              <div className="project-summary">
+                A NextJS replication of the Reddit web application. Implented
+                with TailwindCSS to allow easy responsiveness and have clean
+                transitions. Backend utilized Supabase, GraphQL, Stepzen,
+                Postgresql.
+              </div>
+              <div className="built">
+                Built with: React/NextJS, SQL, Supabase, StepZen, GraphQL,
+                TypeScript,Tailwind
+              </div>
+              <div className="button-container">
+                <a
+                  href="https://b-side-collective.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>View Site</button>
+                </a>
+                <a
+                  href="https://github.com/Gino2B/b-side-collective"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button>Github</button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="project-card-odd">
             <img src="https://i.imgur.com/z2qPzWT.png" alt="project4" />
             <div className="project-info">
               <div className="project-name">myNBAshot</div>
@@ -279,7 +313,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="project-card-odd">
+          <div className="project-card-even">
             <img src="https://i.imgur.com/e68Iha4.png" alt="project3" />
             <div className="project-info">
               <div className="project-name">B-Side Collective</div>
@@ -312,7 +346,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="project-card-even">
+          <div className="project-card-odd">
             <img src="https://i.imgur.com/4PCwuOR.png" alt="project2" />
             <div className="project-info">
               <div className="project-name">Mix-n-Kicks</div>
@@ -342,7 +376,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="project-card-odd">
+          <div className="project-card-even">
             <img src="https://i.imgur.com/rwg2z0G.png" alt="project1" />
             <div className="project-info">
               <div className="project-name">Poke-ballin</div>
